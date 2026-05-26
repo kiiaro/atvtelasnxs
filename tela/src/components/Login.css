@@ -1,0 +1,181 @@
+.login-container {
+  background-color: #ede6d6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-icon {
+  font-size: 50px;
+  color: #243642;
+}
+
+.logo-section h2 {
+  margin-top: 10px;
+  color: #1a2a36;
+  font-size: 28px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 320px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  color: #243642;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  background-color: #203346;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  color: #ffffff;
+  font-size: 14px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.input-group input::placeholder {
+  color: #63778a;
+}
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 45px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #63778a;
+  font-size: 16px;
+}
+
+.forgot-password {
+  color: #1e3d59;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 8px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.action-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.signup-text {
+  color: #243642;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.btn-login {
+  background-color: #517997;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transition: background 0.2s;
+}
+
+.btn-login:hover {
+  background-color: #3f617a;
+}
+
+.social-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-section p {
+  color: #243642;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+.social-icon-img {
+  width: 24px !important;
+  height: 24px !important;
+  object-fit: contain;
+}
